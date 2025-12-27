@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <img src="./assets/FES.svg" class="logo" alt="FES Logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div class="home__description">
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to a pro with a simplified
+              process.
+            </p>
+            <button class="home__description--button">Start Now!</button>
+          </div>
+          <figure>
+            <img src="./assets/laptop.png" alt="Home Page Image" />
+          </figure>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Our comprehensive classes will take you from a beginner with no
+                tech experience to a frontend software pro in months.
+              </p>
+              <p class="section__description--para">
+                Learn from expert mentors around the world, develop websites,
+                and launch your coding career off the ground!
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./assets/about.jpg" alt="About Us Image" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img src="./assets/discord.png" alt="Discord Image" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Connect with your peers, ask questions and get feedback on
+                projects with our Discord server.
+              </p>
+              <p class="section__description--para">
+                Connect with expert mentors 24/7 from anywhere in the world for
+                more in depth connections.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="name" placeholder="Jane Doe" />
+          <label for="email">Email:</label>
+          <input type="email" placeholder="jane@example.com" />
+          <label for="message">Message:</label>
+          <textarea type="text" placeholder="Your Message Here..."></textarea>
+          <button>Contact Us!</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img src="./assets/FES.svg" class="footer__logo" alt="LOGO" />
+      <div class="footer__links">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#discord" class="footer__link">Discord</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </div>
+      <p>Copyright &copy: 2025 Frontend Simplified. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
